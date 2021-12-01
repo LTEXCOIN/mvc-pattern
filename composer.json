@@ -1,0 +1,25 @@
+{
+    "name": "arif98741/mvc-pattern",
+    "description": "MVC Pattern is a structured way of coding and also easily handle class, objects. This gives flexibility to developers for adding more features to project easily. ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ariful",
+            "email": "arifsofg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "ext-pdo": "*",
+        "php": "^5.5.9 || ^7.2"
+    }
+}

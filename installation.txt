@@ -1,0 +1,25 @@
+Installation Process of Mvc App
+
+step 1:
+you need to have pre-installed git in your machine for running git commands.
+run below command for cloning mvc app in your project directory according to several types of enviroments such as xampp/wamp/lamp/mamp
+
+git clone https://github.com/arif98741/mvc-pattern
+
+step 2:
+go to your directory using cd mvc-pattern
+
+step 3
+run below commands for generating vendor autoloading files
+composer install
+
+step 4: 
+change database settings from project directory app/config/database.php
+change environments settings from project directory app/config/environment.php
+
+step 5:
+run the project
+localhost/mvc-pattern/home/index
+
+
+
